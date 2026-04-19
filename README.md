@@ -509,23 +509,23 @@ npm run test:visual
 
 ## 🗺️ Roadmap
 
-### Q1 2024
-- [x] Core blockchain infrastructure
-- [x] Basic API endpoints
-- [x] Frontend MVP
-- [ ] Multi-language support
+### 17/04/2026
+- [x] Thiết kế kiến trúc hệ thống (blockchain + API + frontend)
+- [x] Core smart contract (Sui Move)
+- [x] Backend API cơ bản (Node.js/Express)
+- [x] Frontend MVP (Next.js)
 
-### Q2 2024
-- [ ] **CI/CD Pipeline** with GitHub Actions
-- [ ] **Docker Deployment** with Kubernetes
-- [ ] **Event Indexer Service** for real-time updates
-- [ ] **Advanced Analytics Dashboard**
+### 18/042026
+- [x] Tích hợp smart contract với backend API
+- [x] Xây dựng luồng tạo và truy xuất dữ liệu logistics
+- [x] Kết nối frontend với API + wallet
+- [x] Test luồng end-to-end (còn lỗi nhỏ)
 
-### Q3 2024
-- [ ] **Role-based Access Control** (RBAC)
-- [ ] **Mobile Application** (React Native)
-- [ ] **IoT Integration** for automated tracking
-- [ ] **AI-powered Predictions** for logistics optimization
+### 19/04/2026
+- [x] Hoàn thiện UI & xử lý bug còn tồn đọng
+- [x] Tối ưu logic smart contract & API
+- [ ] Deploy testnet (chưa hoàn chỉnh / đang thử nghiệm)
+- [ ] Chuẩn bị demo & tài liệu dự án
 
 ### Q4 2024
 - [ ] **Multi-chain Expansion** (Ethereum, Polygon)
