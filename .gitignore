@@ -1,0 +1,10 @@
+node_modules
+.next
+dist
+.env.local
+*.log
+.DS_Store
+build
+coverage
+.sui
+Move.lock
