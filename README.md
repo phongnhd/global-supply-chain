@@ -497,16 +497,6 @@ npm run test:visual
 
 ---
 
-## 📖 Documentation
-
-- 📘 [Architecture Guide](./docs/ARCHITECTURE.md)
-- 🔧 [API Reference](./docs/API.md)
-- 🎨 [Frontend Development](./docs/FRONTEND.md)
-- ⛓️ [Smart Contract Guide](./docs/BLOCKCHAIN.md)
-- 🚀 [Deployment Guide](./docs/DEPLOYMENT.md)
-
----
-
 ## 🗺️ Roadmap
 
 ### 17/04/2026
@@ -547,9 +537,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 <div align="center">
 
-**Made with ❤️ by the Global Supply Chain Team**
+**Built with ❤️ by a Solo Developer**
 
-⭐ Star us on GitHub — it motivates us a lot!
+⭐ Star this repo if you find it useful — it motivates me a lot!
 
 [Report Bug](https://github.com/your-org/global-supply-chain/issues) • [Request Feature](https://github.com/your-org/global-supply-chain/issues) • [Documentation](https://docs.yourdomain.com)
 
