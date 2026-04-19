@@ -2,9 +2,9 @@
 
 # 🚢 Global Supply Chain 
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Sui](https://img.shields.io/badge/Sui-Move-4DA2FF?style=for-the-badge&logo=sui&logoColor=white)](https://sui.io/)
 [![IPFS](https://img.shields.io/badge/IPFS-Enabled-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)](https://ipfs.io/)
 
