@@ -526,26 +526,8 @@ npm run test:visual
 - [x] Tối ưu logic smart contract & API
 - [ ] Deploy testnet (chưa hoàn chỉnh / đang thử nghiệm)
 - [ ] Chuẩn bị demo & tài liệu dự án
-
-### Q4 2024
-- [ ] **Multi-chain Expansion** (Ethereum, Polygon)
-- [ ] **Enterprise Features** (SSO, custom branding)
-- [ ] **Advanced Reporting** & compliance tools
-- [ ] **Mainnet Launch** 🚀
-
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details.
-
-### Development Workflow
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
 
 ### Code Style
 
@@ -560,47 +542,6 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 
 This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
 
----
-
-## 👥 Team
-
-<table>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/100" width="100px;" alt=""/><br />
-<b>Lead Developer</b><br />
-<sub>Blockchain & Backend</sub>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/100" width="100px;" alt=""/><br />
-<b>Frontend Lead</b><br />
-<sub>UI/UX & React</sub>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/100" width="100px;" alt=""/><br />
-<b>DevOps Engineer</b><br />
-<sub>Infrastructure & CI/CD</sub>
-</td>
-</tr>
-</table>
-
----
-
-## 🙏 Acknowledgments
-
-- **Sui Foundation** for blockchain infrastructure
-- **Next.js Team** for the amazing framework
-- **IPFS Community** for decentralized storage
-- **Open Source Contributors** worldwide
-
----
-
-## 📞 Support
-
-- 📧 Email: support@yourdomain.com
-- 💬 Discord: [Join our community](https://discord.gg/your-server)
-- 🐦 Twitter: [@YourProject](https://twitter.com/yourproject)
-- 📖 Docs: [docs.yourdomain.com](https://docs.yourdomain.com)
 
 ---
 
