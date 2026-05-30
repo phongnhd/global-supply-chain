@@ -1,4 +1,4 @@
-import * as ocr from "./tools/ocr";
+import * as ocr from "./tools/ocr.js";
 
 export type AgentRequest = {
   filePath: string;

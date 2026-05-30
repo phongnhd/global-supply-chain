@@ -1,2 +1,2 @@
-export * from "./types";
-export { AgentService } from "./agent.service";
+export * from "./types.js";
+export { AgentService } from "./agent.service.js";
