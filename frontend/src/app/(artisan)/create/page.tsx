@@ -5,7 +5,7 @@ export default function ArtisanCreatePage() {
     <div className="space-y-6">
       <div>
         <div className="text-center py-2">
-          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">
             Export Customs Declaration
           </h1>
 

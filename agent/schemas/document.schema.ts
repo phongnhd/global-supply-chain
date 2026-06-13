@@ -1,22 +1,51 @@
 import { z } from "zod";
 
+const nullableText = z
+  .preprocess((value) => {
+    if (value === undefined || value === null) return null;
+    return String(value);
+  }, z.string().nullable())
+  .optional();
+
 export const documentSchema = z.object({
-  senderName: z.string().nullable().optional(),
-  productName: z.string().nullable().optional(),
-  sku: z.string().nullable().optional(),
-  originCountry: z.string().nullable().optional(),
-  awbNumber: z.string().nullable().optional(),
-  flightNumber: z.string().nullable().optional(),
-  departureAirport: z.string().nullable().optional(),
-  arrivalAirport: z.string().nullable().optional(),
-  imoNumber: z.string().nullable().optional(),
-  containerNumber: z.string().nullable().optional(),
-  portOfLoading: z.string().nullable().optional(),
-  portOfDischarge: z.string().nullable().optional(),
-  consignmentNumber: z.string().nullable().optional(),
-  trainNumber: z.string().nullable().optional(),
-  originStation: z.string().nullable().optional(),
-  destinationStation: z.string().nullable().optional(),
+  declarationNumber: nullableText,
+  declarationType: nullableText,
+  registrationDate: nullableText,
+  customsOffice: nullableText,
+  importerTaxId: nullableText,
+  taxId: nullableText,
+  importerName: nullableText,
+  exporterName: nullableText,
+  exporterCountryCode: nullableText,
+  countryCode: nullableText,
+  senderName: nullableText,
+  productName: nullableText,
+  sku: nullableText,
+  hsCode: nullableText,
+  hsCodeRepresentative: nullableText,
+  goodsDescription: nullableText,
+  description: nullableText,
+  quantity1: nullableText,
+  quantity: nullableText,
+  unit: nullableText,
+  originCountry: nullableText,
+  totalTax: nullableText,
+  awbNumber: nullableText,
+  flightNumber: nullableText,
+  departureAirport: nullableText,
+  arrivalAirport: nullableText,
+  imoNumber: nullableText,
+  blNumber: nullableText,
+  vesselName: nullableText,
+  voyageNumber: nullableText,
+  shippingLine: nullableText,
+  containerNumber: nullableText,
+  portOfLoading: nullableText,
+  portOfDischarge: nullableText,
+  consignmentNumber: nullableText,
+  trainNumber: nullableText,
+  originStation: nullableText,
+  destinationStation: nullableText,
   transportMethod: z
     .enum(["Air Freight", "Sea Freight", "Rail Freight"])
     .nullable()

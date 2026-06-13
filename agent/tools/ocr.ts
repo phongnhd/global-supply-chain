@@ -1,6 +1,6 @@
 import axios from "axios";
-import FormData from "form-data";
 import fs from "fs";
+import FormData from "form-data";
 import path from "path";
 
 export async function ocrTool(filePath: string) {
@@ -9,32 +9,38 @@ export async function ocrTool(filePath: string) {
       throw new Error("File not found");
     }
 
-    const apiKey = process.env.OCR_SPACE_API_KEY;
-    if (!apiKey) throw new Error("Missing OCR API key");
+    const formData = new FormData();
 
-    const form = new FormData();
-    form.append("apikey", apiKey);
-    form.append("language", "eng");
-    form.append("isOverlayRequired", "false");
-    form.append("file", fs.createReadStream(filePath), {
+    formData.append("file", fs.createReadStream(filePath), {
       filename: path.basename(filePath),
     });
 
-    const response = await axios.post(
-      "https://api.ocr.space/parse/image",
-      form,
+    const res = await axios.post(
+      "http://localhost:8001/ocr",
+      formData,
       {
-        headers: form.getHeaders(),
+        headers: {
+          ...formData.getHeaders(),
+        },
         maxBodyLength: Infinity,
+        maxContentLength: Infinity,
+        timeout: 120000,
       }
     );
 
-    const text = response.data?.ParsedResults?.[0]?.ParsedText;
-    if (!text) throw new Error("OCR empty");
+    const text = res.data?.text;
 
-    return text;
+    if (!text) {
+      throw new Error("OCR empty");
+    }
+
+    return text
+      .replace(/\r/g, "")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+
   } catch (err: any) {
-    console.error("OCR ERROR:", err?.response?.data || err.message);
+    console.error("OCR ERROR:", err.response?.data || err.message);
     throw err;
   }
 }

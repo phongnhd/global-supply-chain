@@ -4,7 +4,6 @@ import path from "path";
 
 const router = express.Router();
 
-// Giữ extension file
 const storage = multer.diskStorage({
   destination: "uploads/",
   filename: (_, file, cb) => {
@@ -40,7 +39,13 @@ router.post("/process-document", upload.single("file"), async (req, res) => {
       }
     );
 
-    return res.json(await response.json());
+    const payload = await response.json();
+
+    if (!response.ok) {
+      return res.status(response.status).json(payload);
+    }
+
+    return res.json(payload);
   } catch (err: any) {
     console.error("BACKEND ERROR:", err);
 
