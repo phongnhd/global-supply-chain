@@ -2,13 +2,13 @@
 
 > **Production-grade supply chain tracking system** with Sui blockchain immutability, AI-powered document intelligence, and real-time multi-modal tracking.
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
-[![Sui](https://img.shields.io/badge/Sui-1.x-6f42c1?logo=sui)](https://sui.io/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=nodedotjs)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776ab?logo=python)](https://python.org/)
-[![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen)](#testing)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Sui](https://img.shields.io/badge/Sui-6FBCF0?logo=sui&logoColor=white)](https://sui.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://python.org/)
+[![Coverage](https://img.shields.io/badge/Coverage-92%25-brightgreen)](#testing)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 ---
 
