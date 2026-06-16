@@ -5,11 +5,11 @@ import fitz
 import pypdfium2 as pdfium
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
+from paddleocr import PaddleOCR
 
 os.environ.setdefault("FLAGS_use_onednn", "0")
 os.environ.setdefault("FLAGS_use_mkldnn", "0")
 
-from paddleocr import PaddleOCR
 
 MAX_PDF_PAGES = int(os.environ.get("OCR_MAX_PDF_PAGES", "10"))
 TEXT_PAGE_RATIO_THRESHOLD = float(os.environ.get("OCR_TEXT_PAGE_RATIO", "0.5"))
